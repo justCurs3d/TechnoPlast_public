@@ -1,0 +1,60 @@
+.wrapper {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 150px);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.inputId {
+  padding: 3px;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.inputId input {
+  border: 0;
+  font-size: 18px;
+}
+
+.genBtn {
+  background-color: #d39d1f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.genBtn:hover {
+  background-color: #c79520;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.downloadPdf {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.downloadPdf:hover {
+  background-color: #2980b9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+

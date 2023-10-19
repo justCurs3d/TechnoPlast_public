@@ -1,0 +1,25 @@
+.toogle div {
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .leftToogle {
+    border: 2px solid #a8a8a8;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .left_active {
+    background-color: #db7a0b;
+  }
+  
+  .rightToogle {
+    border: 2px solid #a8a8a8;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .right_active {
+    background-color: #2980b9;
+  }
